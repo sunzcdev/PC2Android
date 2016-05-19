@@ -26,86 +26,68 @@
       <file leaf-file-name="ChimpManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/android/chimpchat/ChimpManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="0">
               <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-              <folding />
+              <folding>
+                <element signature="e#0#11515#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="docComment;class#ChimpManager#0" expanded="false" />
+                <element signature="method#ChimpManager#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#touchDown#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#touchDown#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#touchUp#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#touchUp#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#touchMove#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#touchMove#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#touch#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#touch#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#press#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#press#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#keyDown#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#keyDown#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#keyUp#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#keyUp#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#press#1;class#ChimpManager#0" expanded="false" />
+                <element signature="method#press#1;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#parseResponseForExtra#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#parseResponseForExtra#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#close#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#close#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#getVariable#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#getVariable#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#listVariable#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#listVariable#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#done#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#done#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#quit#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#quit#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#tap#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#tap#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#type#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#type#0;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#type#1;class#ChimpManager#0" expanded="false" />
+                <element signature="method#type#1;class#ChimpManager#0" expanded="false" />
+                <element signature="docComment;method#wake#0;class#ChimpManager#0" expanded="false" />
+                <element signature="method#wake#0;class#ChimpManager#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".project" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.project">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperateAndroid.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OperateAndroid.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/OperateAndroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+            <state relative-caret-position="255">
+              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1614#1615#0" expanded="true" />
-                <element signature="e#1702#1703#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChimpChat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/android/chimpchat/ChimpChat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/MainWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2620">
-              <caret line="151" column="21" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
-              <folding>
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#738#739#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lenovo/test/ServerThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocketClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lenovo/test/SocketClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -127,17 +109,16 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-6" />
+    <option name="y" value="-908" />
+    <option name="width" value="1456" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -164,32 +145,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ScreenCapture" />
+              <option name="myItemId" value="PC2Android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ScreenCapture" />
+              <option name="myItemId" value="PC2Android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ScreenCapture" />
+              <option name="myItemId" value="PC2Android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ScreenCapture" />
+              <option name="myItemId" value="PC2Android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ScreenCapture" />
+              <option name="myItemId" value="PC2Android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -200,73 +184,54 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lenovo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ScreenCapture" />
+              <option name="myItemId" value="PC2Android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ScreenCapture" />
+              <option name="myItemId" value="PC2Android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lenovo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScreenCapture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScreenCapture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScreenCapture" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PC2Android">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Projects\PC2Android" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.MainWindow">
     <configuration default="false" name="MainWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -724,7 +689,7 @@
     <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC" />
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <configuration>C:\Users\sunzc\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
@@ -738,15 +703,16 @@
       <workItem from="1463640818742" duration="322000" />
       <workItem from="1463641447061" duration="650000" />
       <workItem from="1463642118403" duration="128000" />
+      <workItem from="1463666481490" duration="1346000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1928000" />
+    <option name="totallyTimeSpent" value="3274000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-6" y="-908" width="1456" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -755,10 +721,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.406639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18482906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18409742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -797,28 +763,232 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/android/chimpchat/ChimpManager.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#11515#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#ChimpManager#0" expanded="false" />
+            <element signature="method#ChimpManager#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touchDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touchDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touchUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touchUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touchMove#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touchMove#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touch#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touch#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#press#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#press#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#keyDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#keyDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#keyUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#keyUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#press#1;class#ChimpManager#0" expanded="false" />
+            <element signature="method#press#1;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#parseResponseForExtra#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#parseResponseForExtra#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#close#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#close#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#getVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#getVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#listVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#listVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#done#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#done#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#quit#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#quit#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#tap#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#tap#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#type#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#type#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#type#1;class#ChimpManager#0" expanded="false" />
+            <element signature="method#type#1;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#wake#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#wake#0;class#ChimpManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/OperateAndroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/chimpchat/ChimpChat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#3636#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#ChimpChat#0" expanded="false" />
+            <element signature="e#1269#1270#0" expanded="false" />
+            <element signature="e#1308#1309#0" expanded="false" />
+            <element signature="method#getInstance#0;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#getInstance#1;class#ChimpChat#0" expanded="false" />
+            <element signature="method#getInstance#1;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#createBackendByName#0;class#ChimpChat#0" expanded="false" />
+            <element signature="method#createBackendByName#0;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#waitForConnection#0;class#ChimpChat#0" expanded="false" />
+            <element signature="method#waitForConnection#0;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#waitForConnection#1;class#ChimpChat#0" expanded="false" />
+            <element signature="e#3438#3439#0" expanded="false" />
+            <element signature="e#3512#3513#0" expanded="false" />
+            <element signature="docComment;method#shutdown#0;class#ChimpChat#0" expanded="false" />
+            <element signature="e#3597#3598#0" expanded="false" />
+            <element signature="e#3632#3633#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="151" column="21" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
+            <element signature="class#3280:4172" expanded="false" />
+            <element signature="method#actionPerformed#0;class#3280:4172" expanded="false" />
+            <element signature="class#4430:4635" expanded="false" />
+            <element signature="method#actionPerformed#0;class#4430:4635" expanded="false" />
+            <element signature="e#4775#4776#0" expanded="false" />
+            <element signature="e#4836#4837#0" expanded="false" />
+            <element signature="class#4886:5096" expanded="false" />
+            <element signature="method#actionPerformed#0;class#4886:5096" expanded="false" />
+            <element signature="class#5358:5682" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5358:5682" expanded="false" />
+            <element signature="class#5723:6049" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5723:6049" expanded="false" />
+            <element signature="class#6089:6415" expanded="false" />
+            <element signature="method#actionPerformed#0;class#6089:6415" expanded="false" />
+            <element signature="class#6498:6966" expanded="false" />
+            <element signature="method#run#0;class#6498:6966" expanded="false" />
+            <element signature="class#7004:8260" expanded="false" />
+            <element signature="method#mouseReleased#0;class#7004:8260" expanded="false" />
+            <element signature="method#mousePressed#0;class#7004:8260" expanded="false" />
+            <element signature="method#mouseExited#0;class#7004:8260" expanded="false" />
+            <element signature="method#mouseEntered#0;class#7004:8260" expanded="false" />
+            <element signature="method#mouseClicked#0;class#7004:8260" expanded="false" />
+            <element signature="class#8305:8885" expanded="false" />
+            <element signature="method#mouseMoved#0;class#8305:8885" expanded="false" />
+            <element signature="method#mouseDragged#0;class#8305:8885" expanded="false" />
+            <element signature="class#8929:9303" expanded="false" />
+            <element signature="method#mouseWheelMoved#0;class#8929:9303" expanded="false" />
+            <element signature="class#9339:11088" expanded="false" />
+            <element signature="method#keyTyped#0;class#9339:11088" expanded="false" />
+            <element signature="method#keyReleased#0;class#9339:11088" expanded="false" />
+            <element signature="method#keyPressed#0;class#9339:11088" expanded="false" />
+            <element signature="method#initResolution#0;class#MainWindow#0" expanded="false" />
+            <element signature="method#getImageIcon#0;class#MainWindow#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lenovo/test/ServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#316#317#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lenovo/test/SocketClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/chimpchat/ChimpManager.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#11515#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#ChimpManager#0" expanded="false" />
+            <element signature="method#ChimpManager#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touchDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touchDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touchUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touchUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touchMove#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touchMove#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touch#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touch#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#press#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#press#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#keyDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#keyDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#keyUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#keyUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#press#1;class#ChimpManager#0" expanded="false" />
+            <element signature="method#press#1;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#parseResponseForExtra#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#parseResponseForExtra#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#close#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#close#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#getVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#getVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#listVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#listVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#done#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#done#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#quit#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#quit#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#tap#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#tap#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#type#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#type#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#type#1;class#ChimpManager#0" expanded="false" />
+            <element signature="method#type#1;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#wake#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#wake#0;class#ChimpManager#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.project" />
     <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/OperateAndroid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1614#1615#0" expanded="true" />
-            <element signature="e#1702#1703#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -827,7 +997,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#0#3636#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#ChimpChat#0" expanded="false" />
+            <element signature="e#1269#1270#0" expanded="false" />
+            <element signature="e#1308#1309#0" expanded="false" />
+            <element signature="method#getInstance#0;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#getInstance#1;class#ChimpChat#0" expanded="false" />
+            <element signature="method#getInstance#1;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#createBackendByName#0;class#ChimpChat#0" expanded="false" />
+            <element signature="method#createBackendByName#0;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#waitForConnection#0;class#ChimpChat#0" expanded="false" />
+            <element signature="method#waitForConnection#0;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#waitForConnection#1;class#ChimpChat#0" expanded="false" />
+            <element signature="e#3438#3439#0" expanded="false" />
+            <element signature="e#3512#3513#0" expanded="false" />
+            <element signature="docComment;method#shutdown#0;class#ChimpChat#0" expanded="false" />
+            <element signature="e#3597#3598#0" expanded="false" />
+            <element signature="e#3632#3633#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -836,8 +1025,41 @@
         <state relative-caret-position="2620">
           <caret line="151" column="21" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
           <folding>
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
+            <element signature="class#3280:4172" expanded="false" />
+            <element signature="method#actionPerformed#0;class#3280:4172" expanded="false" />
+            <element signature="class#4430:4635" expanded="false" />
+            <element signature="method#actionPerformed#0;class#4430:4635" expanded="false" />
+            <element signature="e#4775#4776#0" expanded="false" />
+            <element signature="e#4836#4837#0" expanded="false" />
+            <element signature="class#4886:5096" expanded="false" />
+            <element signature="method#actionPerformed#0;class#4886:5096" expanded="false" />
+            <element signature="class#5358:5682" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5358:5682" expanded="false" />
+            <element signature="class#5723:6049" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5723:6049" expanded="false" />
+            <element signature="class#6089:6415" expanded="false" />
+            <element signature="method#actionPerformed#0;class#6089:6415" expanded="false" />
+            <element signature="class#6498:6966" expanded="false" />
+            <element signature="method#run#0;class#6498:6966" expanded="false" />
+            <element signature="class#7004:8260" expanded="false" />
+            <element signature="method#mouseReleased#0;class#7004:8260" expanded="false" />
+            <element signature="method#mousePressed#0;class#7004:8260" expanded="false" />
+            <element signature="method#mouseExited#0;class#7004:8260" expanded="false" />
+            <element signature="method#mouseEntered#0;class#7004:8260" expanded="false" />
+            <element signature="method#mouseClicked#0;class#7004:8260" expanded="false" />
+            <element signature="class#8305:8885" expanded="false" />
+            <element signature="method#mouseMoved#0;class#8305:8885" expanded="false" />
+            <element signature="method#mouseDragged#0;class#8305:8885" expanded="false" />
+            <element signature="class#8929:9303" expanded="false" />
+            <element signature="method#mouseWheelMoved#0;class#8929:9303" expanded="false" />
+            <element signature="class#9339:11088" expanded="false" />
+            <element signature="method#keyTyped#0;class#9339:11088" expanded="false" />
+            <element signature="method#keyReleased#0;class#9339:11088" expanded="false" />
+            <element signature="method#keyPressed#0;class#9339:11088" expanded="false" />
+            <element signature="method#initResolution#0;class#MainWindow#0" expanded="false" />
+            <element signature="method#getImageIcon#0;class#MainWindow#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -846,7 +1068,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#316#317#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -854,7 +1080,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -862,26 +1090,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#11515#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#ChimpManager#0" expanded="false" />
+            <element signature="method#ChimpManager#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touchDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touchDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touchUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touchUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touchMove#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touchMove#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touch#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touch#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#press#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#press#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#keyDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#keyDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#keyUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#keyUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#press#1;class#ChimpManager#0" expanded="false" />
+            <element signature="method#press#1;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#parseResponseForExtra#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#parseResponseForExtra#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#close#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#close#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#getVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#getVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#listVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#listVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#done#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#done#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#quit#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#quit#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#tap#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#tap#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#type#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#type#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#type#1;class#ChimpManager#0" expanded="false" />
+            <element signature="method#type#1;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#wake#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#wake#0;class#ChimpManager#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.project" />
     <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/OperateAndroid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1614#1615#0" expanded="true" />
-            <element signature="e#1702#1703#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -890,7 +1156,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="e#0#3636#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#ChimpChat#0" expanded="false" />
+            <element signature="e#1269#1270#0" expanded="false" />
+            <element signature="e#1308#1309#0" expanded="false" />
+            <element signature="method#getInstance#0;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#getInstance#1;class#ChimpChat#0" expanded="false" />
+            <element signature="method#getInstance#1;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#createBackendByName#0;class#ChimpChat#0" expanded="false" />
+            <element signature="method#createBackendByName#0;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#waitForConnection#0;class#ChimpChat#0" expanded="false" />
+            <element signature="method#waitForConnection#0;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#waitForConnection#1;class#ChimpChat#0" expanded="false" />
+            <element signature="e#3438#3439#0" expanded="false" />
+            <element signature="e#3512#3513#0" expanded="false" />
+            <element signature="docComment;method#shutdown#0;class#ChimpChat#0" expanded="false" />
+            <element signature="e#3597#3598#0" expanded="false" />
+            <element signature="e#3632#3633#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -899,31 +1184,99 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
+            <element signature="class#3280:4172" expanded="false" />
+            <element signature="method#actionPerformed#0;class#3280:4172" expanded="false" />
+            <element signature="class#4430:4635" expanded="false" />
+            <element signature="method#actionPerformed#0;class#4430:4635" expanded="false" />
+            <element signature="e#4775#4776#0" expanded="false" />
+            <element signature="e#4836#4837#0" expanded="false" />
+            <element signature="class#4886:5096" expanded="false" />
+            <element signature="method#actionPerformed#0;class#4886:5096" expanded="false" />
+            <element signature="class#5358:5682" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5358:5682" expanded="false" />
+            <element signature="class#5723:6049" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5723:6049" expanded="false" />
+            <element signature="class#6089:6415" expanded="false" />
+            <element signature="method#actionPerformed#0;class#6089:6415" expanded="false" />
+            <element signature="class#6498:6966" expanded="false" />
+            <element signature="method#run#0;class#6498:6966" expanded="false" />
+            <element signature="class#7004:8260" expanded="false" />
+            <element signature="method#mouseReleased#0;class#7004:8260" expanded="false" />
+            <element signature="method#mousePressed#0;class#7004:8260" expanded="false" />
+            <element signature="method#mouseExited#0;class#7004:8260" expanded="false" />
+            <element signature="method#mouseEntered#0;class#7004:8260" expanded="false" />
+            <element signature="method#mouseClicked#0;class#7004:8260" expanded="false" />
+            <element signature="class#8305:8885" expanded="false" />
+            <element signature="method#mouseMoved#0;class#8305:8885" expanded="false" />
+            <element signature="method#mouseDragged#0;class#8305:8885" expanded="false" />
+            <element signature="class#8929:9303" expanded="false" />
+            <element signature="method#mouseWheelMoved#0;class#8929:9303" expanded="false" />
+            <element signature="class#9339:11088" expanded="false" />
+            <element signature="method#keyTyped#0;class#9339:11088" expanded="false" />
+            <element signature="method#keyReleased#0;class#9339:11088" expanded="false" />
+            <element signature="method#keyPressed#0;class#9339:11088" expanded="false" />
+            <element signature="method#initResolution#0;class#MainWindow#0" expanded="false" />
+            <element signature="method#getImageIcon#0;class#MainWindow#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath" />
+    <entry file="file://$PROJECT_DIR$/.classpath" />
     <entry file="file://$PROJECT_DIR$/src/com/android/chimpchat/ChimpManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="0">
           <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-          <folding />
+          <folding>
+            <element signature="e#0#11515#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#ChimpManager#0" expanded="false" />
+            <element signature="method#ChimpManager#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touchDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touchDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touchUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touchUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touchMove#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touchMove#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#touch#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#touch#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#press#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#press#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#keyDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#keyDown#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#keyUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#keyUp#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#press#1;class#ChimpManager#0" expanded="false" />
+            <element signature="method#press#1;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#parseResponseForExtra#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#parseResponseForExtra#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#close#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#close#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#getVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#getVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#listVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#listVariable#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#done#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#done#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#quit#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#quit#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#tap#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#tap#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#type#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#type#0;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#type#1;class#ChimpManager#0" expanded="false" />
+            <element signature="method#type#1;class#ChimpManager#0" expanded="false" />
+            <element signature="docComment;method#wake#0;class#ChimpManager#0" expanded="false" />
+            <element signature="method#wake#0;class#ChimpManager#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -934,73 +1287,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.project">
+    <entry file="file://$PROJECT_DIR$/.project" />
+    <entry file="jar://$PROJECT_DIR$/lib/chimpchat.jar!/com/android/chimpchat/adb/AdbChimpDevice.class" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/chimpchat/ChimpChat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/chimpchat.jar!/com/android/chimpchat/adb/AdbChimpDevice.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/OperateAndroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1614#1615#0" expanded="true" />
-            <element signature="e#1702#1703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2620">
-          <caret line="151" column="21" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
-          <folding>
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#738#739#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lenovo/test/ServerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="184">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lenovo/test/SocketClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="252">
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/com/lenovo/test/ServerThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="363">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#316#317#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="151" column="21" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
+            <element signature="class#3280:4172" expanded="false" />
+            <element signature="method#actionPerformed#0;class#3280:4172" expanded="false" />
+            <element signature="class#4430:4635" expanded="false" />
+            <element signature="method#actionPerformed#0;class#4430:4635" expanded="false" />
+            <element signature="e#4775#4776#0" expanded="false" />
+            <element signature="e#4836#4837#0" expanded="false" />
+            <element signature="class#4886:5096" expanded="false" />
+            <element signature="method#actionPerformed#0;class#4886:5096" expanded="false" />
+            <element signature="class#5358:5682" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5358:5682" expanded="false" />
+            <element signature="class#5723:6049" expanded="false" />
+            <element signature="method#actionPerformed#0;class#5723:6049" expanded="false" />
+            <element signature="class#6089:6415" expanded="false" />
+            <element signature="method#actionPerformed#0;class#6089:6415" expanded="false" />
+            <element signature="class#6498:6966" expanded="false" />
+            <element signature="method#run#0;class#6498:6966" expanded="false" />
+            <element signature="class#7004:8260" expanded="false" />
+            <element signature="method#mouseReleased#0;class#7004:8260" expanded="false" />
+            <element signature="method#mousePressed#0;class#7004:8260" expanded="false" />
+            <element signature="method#mouseExited#0;class#7004:8260" expanded="false" />
+            <element signature="method#mouseEntered#0;class#7004:8260" expanded="false" />
+            <element signature="method#mouseClicked#0;class#7004:8260" expanded="false" />
+            <element signature="class#8305:8885" expanded="false" />
+            <element signature="method#mouseMoved#0;class#8305:8885" expanded="false" />
+            <element signature="method#mouseDragged#0;class#8305:8885" expanded="false" />
+            <element signature="class#8929:9303" expanded="false" />
+            <element signature="method#mouseWheelMoved#0;class#8929:9303" expanded="false" />
+            <element signature="class#9339:11088" expanded="false" />
+            <element signature="method#keyTyped#0;class#9339:11088" expanded="false" />
+            <element signature="method#keyReleased#0;class#9339:11088" expanded="false" />
+            <element signature="method#keyPressed#0;class#9339:11088" expanded="false" />
+            <element signature="method#initResolution#0;class#MainWindow#0" expanded="false" />
+            <element signature="method#getImageIcon#0;class#MainWindow#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/chimpchat/ChimpChat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#3636#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="docComment;class#ChimpChat#0" expanded="false" />
+            <element signature="e#1269#1270#0" expanded="false" />
+            <element signature="e#1308#1309#0" expanded="false" />
+            <element signature="method#getInstance#0;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#getInstance#1;class#ChimpChat#0" expanded="false" />
+            <element signature="method#getInstance#1;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#createBackendByName#0;class#ChimpChat#0" expanded="false" />
+            <element signature="method#createBackendByName#0;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#waitForConnection#0;class#ChimpChat#0" expanded="false" />
+            <element signature="method#waitForConnection#0;class#ChimpChat#0" expanded="false" />
+            <element signature="docComment;method#waitForConnection#1;class#ChimpChat#0" expanded="false" />
+            <element signature="e#3438#3439#0" expanded="false" />
+            <element signature="e#3512#3513#0" expanded="false" />
+            <element signature="docComment;method#shutdown#0;class#ChimpChat#0" expanded="false" />
+            <element signature="e#3597#3598#0" expanded="false" />
+            <element signature="e#3632#3633#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/OperateAndroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,6 +1429,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>android-support-v4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1044,7 +1441,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
