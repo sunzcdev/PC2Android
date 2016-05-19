@@ -1,0 +1,302 @@
+package com.lenovo.ScreenCapture;
+
+import java.awt.Image;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.SwingConstants;
+
+import com.android.ddmlib.AndroidDebugBridge;
+import com.android.ddmlib.IDevice;
+import com.android.ddmlib.RawImage;
+
+@SuppressWarnings("serial")
+public class MainWindow extends JFrame {
+
+	public static void main(String[] args) {
+		new MainWindow();
+	}
+
+	public MainWindow() {
+		super();
+		initWindow();
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setSize(200, 200);
+
+		setVisible(true);
+		setResizable(false);
+	}
+
+	JLabel label;
+	public static String targetNum = null;
+	public static IDevice device = null;
+	public Thread th = null;
+	public OperateAndroid oa = null;
+	public int startX, startY;
+	public int width, height;
+
+	public void initWindow() {
+		label = new JLabel();
+		add(label);
+		label.setHorizontalAlignment(SwingConstants.CENTER);
+
+		String adbLocation = System
+				.getProperty("com.android.screenshot.bindir");
+		if (adbLocation != null && adbLocation.length() != 0) {
+			adbLocation += File.separator + "adb";
+		} else {
+			adbLocation = "adb";
+		}
+		AndroidDebugBridge.init(false);
+		AndroidDebugBridge bridge = AndroidDebugBridge.createBridge(
+				adbLocation, true);
+		int count = 0;
+		while (bridge.hasInitialDeviceList() == false) {
+			try {
+				Thread.sleep(100);
+				count++;
+			} catch (InterruptedException e) {
+			}
+
+			if (count > 100) {
+				System.err.println("Timeout getting device list!");
+				return;
+			}
+		}
+		final IDevice[] devices = bridge.getDevices();
+		JMenu fileMenu = new JMenu("选择设备");
+		JMenu functionMenu = new JMenu("功能");
+		JMenuItem Item1 = new JMenuItem("HOME");
+		functionMenu.add(Item1);
+		JMenuItem Item2 = new JMenuItem("BACK");
+		functionMenu.add(Item2);
+		JMenuItem Item3 = new JMenuItem("MENU");
+		functionMenu.add(Item3);
+		JMenuBar menuBar = new JMenuBar();
+		menuBar.add(fileMenu);
+		menuBar.add(functionMenu);
+		JMenuItem newMenuItem = null;
+		for (IDevice d : devices) {
+			newMenuItem = new JMenuItem(d.getName());
+			newMenuItem.addActionListener(new ActionListener() {
+
+				@Override
+				public void actionPerformed(ActionEvent arg0) {
+					System.out.println(arg0.getActionCommand());
+					targetNum = arg0.getActionCommand();
+					targetNum = targetNum.substring(targetNum.lastIndexOf("-") + 1);
+					for (IDevice d : devices) {
+						if (d.getSerialNumber().equals(targetNum)) {
+
+							device = d;
+							oa = new OperateAndroid(device);
+							// oa = OperateAndroid.getOperateAndroid(device);
+							width = oa.getScreenWidth();
+							height = oa.getScreenHeight();
+
+							// width = width / 2;
+							// height = height / 2;
+
+							setSize(width, (height + 60));
+
+							if (!th.isAlive())
+								th.start();
+						}
+					}
+
+				}
+			});
+
+			fileMenu.add(newMenuItem);
+		}
+
+		if (devices.length < 1) {
+			fileMenu.setText("未找到设备");
+			fileMenu.setEnabled(false);
+			functionMenu.setEnabled(false);
+		}
+
+		Item1.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				oa.press(OperateAndroid.HOME);
+			}
+		});
+
+		Item2.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				oa.press(OperateAndroid.BACK);
+			}
+		});
+		Item3.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				oa.press(OperateAndroid.MENU);
+			}
+		});
+		setJMenuBar(menuBar);
+
+		th = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				ImageIcon image = null;
+				while (true) {
+
+					image = new ImageIcon("no.gif");
+					image.setImage(getImageIcon(targetNum).getImage()
+							.getScaledInstance(width, height,
+									Image.SCALE_DEFAULT));
+
+					label.setIcon(image);
+				}
+			}
+		});
+		label.addMouseListener(new MouseListener() {
+
+			@Override
+			public void mouseReleased(MouseEvent e) {
+				try {
+					oa.touchUp(e.getX(), e.getY());
+				} catch (Exception e1) {
+					e1.printStackTrace();
+				}
+
+				System.out.println("mouseReleased");
+			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				startX = e.getX();
+				startY = e.getY();
+
+				try {
+					oa.touchDown(startX, startY);
+				} catch (Exception e1) {
+					e1.printStackTrace();
+				}
+
+				System.out.println("mousePressed");
+			}
+
+			@Override
+			public void mouseExited(MouseEvent e) {
+			}
+
+			@Override
+			public void mouseEntered(MouseEvent e) {
+			}
+
+			@Override
+			public void mouseClicked(MouseEvent e) {
+			}
+		});
+
+		label.addMouseMotionListener(new MouseMotionListener() {
+
+			@Override
+			public void mouseMoved(MouseEvent e) {
+			}
+
+			@Override
+			public void mouseDragged(MouseEvent e) {
+				try {
+					oa.touchMove(e.getX(), e.getY());
+				} catch (Exception ex) {
+					ex.printStackTrace();
+				}
+			}
+		});
+
+		this.addKeyListener(new KeyListener() {
+
+			@Override
+			public void keyTyped(KeyEvent e) {
+
+			}
+
+			@Override
+			public void keyReleased(KeyEvent e) {
+			}
+
+			@Override
+			public void keyPressed(KeyEvent e) {
+				int code = e.getKeyCode();
+				switch (code) {
+
+				case KeyEvent.VK_BACK_SPACE:
+					oa.press("KEYCODE_DEL");
+					break;
+				case KeyEvent.VK_SPACE:
+					oa.press("KEYCODE_SPACE");
+					break;
+				case KeyEvent.VK_DELETE:
+					oa.press("KEYCODE_FORWARD_DEL");
+					break;
+				case KeyEvent.VK_UP:
+					oa.press("KEYCODE_DPAD_UP");
+					break;
+				case KeyEvent.VK_DOWN:
+					oa.press("KEYCODE_DPAD_DOWN");
+					break;
+				case KeyEvent.VK_LEFT:
+					oa.press("KEYCODE_DPAD_LEFT");
+					break;
+				case KeyEvent.VK_RIGHT:
+					oa.press("KEYCODE_DPAD_RIGHT");
+					break;
+				case KeyEvent.VK_ENTER:
+					oa.press("KEYCODE_NUMPAD_ENTER");
+					break;
+				default:
+					if (code >= 65 && code <= 90)
+						oa.type(e.getKeyChar());
+				}
+
+			}
+		});
+	}
+
+	public ImageIcon getImageIcon(String targetNum) {
+		try {
+			// long start = System.currentTimeMillis();
+			RawImage rawImage = device.getScreenshot();
+			// long end = System.currentTimeMillis();
+			// System.out.println("获取屏幕时间：" + (end - start) + "-毫秒");
+			BufferedImage image = new BufferedImage(rawImage.width,
+					rawImage.height, BufferedImage.TYPE_INT_RGB);
+			int index = 0;
+			int IndexInc = rawImage.bpp >> 3;
+			for (int y = 0; y < rawImage.height; y++) {
+				for (int x = 0; x < rawImage.width; x++) {
+					int value = rawImage.getARGB(index);
+					index += IndexInc;
+					image.setRGB(x, y, value);
+				}
+			}
+			return new ImageIcon(image);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+}

@@ -1,0 +1,164 @@
+package com.lenovo.ScreenCapture;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.SwingConstants;
+
+import com.android.ddmlib.AndroidDebugBridge;
+import com.android.ddmlib.IDevice;
+import com.android.ddmlib.RawImage;
+
+@SuppressWarnings("serial")
+public class MainWindow extends JFrame {
+
+	public static void main(String[] args) {
+		new MainWindow();
+	}
+
+	public MainWindow() {
+		super();
+		initWindow();
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setSize(480, 860);
+		setVisible(true);
+	}
+
+	JLabel label;
+	public static String targetNum = null;
+	public static IDevice device = null;
+	public Thread th = null;
+	public OperateAndroid oa = null;
+
+	public void initWindow() {
+		label = new JLabel();
+		add(label);
+		label.setHorizontalAlignment(SwingConstants.CENTER);
+
+		String adbLocation = System
+				.getProperty("com.android.screenshot.bindir");
+		if (adbLocation != null && adbLocation.length() != 0) {
+			adbLocation += File.separator + "adb";
+		} else {
+			adbLocation = "adb";
+		}
+		AndroidDebugBridge.init(false);
+		AndroidDebugBridge bridge = AndroidDebugBridge.createBridge(
+				adbLocation, true);
+		int count = 0;
+		while (bridge.hasInitialDeviceList() == false) {
+			try {
+				Thread.sleep(100);
+				count++;
+			} catch (InterruptedException e) {
+			}
+
+			if (count > 100) {
+				System.err.println("Timeout getting device list!");
+				return;
+			}
+		}
+		final IDevice[] devices = bridge.getDevices();
+		JMenu fileMenu = new JMenu("选择设备");
+		JMenuBar menuBar = new JMenuBar();
+		menuBar.add(fileMenu);
+		JMenuItem newMenuItem = null;
+		for (IDevice d : devices) {
+			newMenuItem = new JMenuItem(d.getSerialNumber());
+			newMenuItem.addActionListener(new ActionListener() {
+
+				@Override
+				public void actionPerformed(ActionEvent arg0) {
+					System.out.println(arg0.getActionCommand());
+					targetNum = arg0.getActionCommand();
+					for (IDevice d : devices) {
+						if (d.getSerialNumber().equals(targetNum)) {
+							device = d;
+							oa = new OperateAndroid(device);
+							if (!th.isAlive())
+								th.start();
+						}
+					}
+				}
+			});
+			fileMenu.add(newMenuItem);
+		}
+		if (devices.length < 1) {
+			fileMenu.setText("未找到设备");
+			fileMenu.setEnabled(false);
+		}
+		setJMenuBar(menuBar);
+
+		th = new Thread(new Runnable() {
+
+			@Override
+			public void run() {
+				while (true)
+					label.setIcon(getImageIcon(targetNum));
+			}
+		});
+		label.addMouseListener(new MouseListener() {
+
+			@Override
+			public void mouseReleased(MouseEvent e) {
+				System.out.println("mouseReleased");
+			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				System.out.println("mousePressed");
+			}
+
+			@Override
+			public void mouseExited(MouseEvent e) {
+			}
+
+			@Override
+			public void mouseEntered(MouseEvent e) {
+			}
+
+			@Override
+			public void mouseClicked(MouseEvent e) {
+				System.out.println("mouseClicked");
+				System.out.println(e.getX());
+				System.out.println(e.getY());
+				oa.press(e.getX(), e.getY());
+			}
+		});
+	}
+
+	public ImageIcon getImageIcon(String targetNum) {
+		try {
+			// long start = System.currentTimeMillis();
+			RawImage rawImage = device.getScreenshot();
+			// long end = System.currentTimeMillis();
+			// System.out.println("获取屏幕时间：" + (end - start) + "-毫秒");
+			BufferedImage image = new BufferedImage(rawImage.width,
+					rawImage.height, BufferedImage.TYPE_INT_RGB);
+			int index = 0;
+			int IndexInc = rawImage.bpp >> 3;
+			for (int y = 0; y < rawImage.height; y++) {
+				for (int x = 0; x < rawImage.width; x++) {
+					int value = rawImage.getARGB(index);
+					index += IndexInc;
+					image.setRGB(x, y, value);
+				}
+			}
+			return new ImageIcon(image);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+}

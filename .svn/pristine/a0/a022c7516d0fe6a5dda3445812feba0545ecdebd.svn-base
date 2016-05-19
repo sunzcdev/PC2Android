@@ -1,0 +1,76 @@
+package com.lenovo.test;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+public class ClientDemo {
+
+	/**
+	 * @param args
+	 * @throws InterruptedException
+	 */
+	public static void main(String[] args) throws InterruptedException {
+
+		Socket socket = null;
+		try {
+			socket = new Socket("localhost", 8888);
+			// 获取输出流，用于客户端向服务器端发送数据
+			DataOutputStream dos = new DataOutputStream(
+					socket.getOutputStream());
+			// 获取输入流，用于接收服务器端发送来的数据
+			DataInputStream dis = new DataInputStream(socket.getInputStream());
+			// 客户端向服务器端发送数据
+			dos.writeUTF("我是客户端，请求连接!");
+			// 打印出从服务器端接收到的数据
+			System.out.println(dis.readUTF());
+			// 不需要继续使用此连接时，记得关闭哦
+			socket.close();
+		} catch (UnknownHostException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public static void getStream() {
+		Socket socket = null;
+		int sizeNum = 0;
+		byte[] bufs = null;
+		try {
+			socket = new Socket("127.0.0.1", 8000);
+
+			DataOutputStream dos = new DataOutputStream(
+					socket.getOutputStream());
+			dos.writeUTF("我是客户端，请求连接!");
+
+			DataInputStream dis = new DataInputStream(socket.getInputStream());
+			System.out.println(dis.readUTF());
+
+			bufs = new byte[3];
+			dis.read(bufs);
+			if (new String(bufs).equals("vpx")) {
+				while (true) {
+					sizeNum = dis.readInt();
+					bufs = new byte[sizeNum];
+					dis.read(bufs);
+					int[] colors = new int[480 * 800];
+					// 将rgb转为色值
+					for (int m = 0; m < colors.length; m++) {
+						int b = (bufs[m * 4] & 0xFF);
+						int g = (bufs[m * 4 + 1] & 0xFF);
+						int r = (bufs[m * 4 + 2] & 0xFF);
+						int a = (bufs[m * 4 + 3] & 0xFF);
+						colors[m] = (a << 24) + (r << 16) + (g << 8) + b;
+					}
+				}
+			}
+			socket.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+}
