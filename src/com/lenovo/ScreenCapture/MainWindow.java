@@ -1,23 +1,14 @@
 package com.lenovo.ScreenCapture;
 
-import java.awt.Image;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
-import java.awt.event.MouseMotionListener;
-import java.awt.event.MouseWheelEvent;
-import java.awt.event.MouseWheelListener;
-import java.awt.image.BufferedImage;
-import java.io.File;
-
-import javax.swing.*;
-
 import com.android.ddmlib.AndroidDebugBridge;
 import com.android.ddmlib.IDevice;
 import com.android.ddmlib.RawImage;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
 
 @SuppressWarnings("serial")
 public class MainWindow extends JFrame {
@@ -61,16 +52,15 @@ public class MainWindow extends JFrame {
         AndroidDebugBridge bridge = AndroidDebugBridge.createBridge(
                 adbLocation, true);
         int count = 0;
-        while (bridge.hasInitialDeviceList() == false) {
+        while (!bridge.hasInitialDeviceList()) {
             try {
                 Thread.sleep(100);
                 count++;
             } catch (InterruptedException e) {
+                e.printStackTrace();
             }
-
             if (count > 100) {
-                System.err.println("Timeout getting device list!");
-                return;
+                throw new RuntimeException("Timeout getting device list!");
             }
         }
         final IDevice[] devices = bridge.getDevices();
