@@ -23,75 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChimpManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/android/chimpchat/ChimpManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="200" column="52" selection-start-line="200" selection-start-column="52" selection-end-line="200" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;method#ChimpManager#0;class#ChimpManager#0" expanded="true" />
-                <element signature="method#ChimpManager#0;class#ChimpManager#0" expanded="true" />
-                <element signature="method#touch#0;class#ChimpManager#0" expanded="true" />
-                <element signature="method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="true" />
-                <element signature="method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="true" />
-                <element signature="method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="true" />
-                <element signature="method#type#0;class#ChimpManager#0" expanded="true" />
-                <element signature="method#wake#0;class#ChimpManager#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperateAndroid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/OperateAndroid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-423">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#OperateAndroid#0;class#OperateAndroid#0" expanded="true" />
-                <element signature="method#touch#0;class#OperateAndroid#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/MainWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="366" column="46" selection-start-line="366" selection-start-column="46" selection-end-line="366" selection-end-column="46" />
-              <folding>
-                <element signature="method#MainWindow#0;class#MainWindow#0" expanded="true" />
-                <element signature="method#initWindow#0;class#MainWindow#0" expanded="true" />
-                <element signature="e#4368#4544#0" expanded="true" />
-                <element signature="e#4543#4544#0" expanded="true" />
-                <element signature="class#6701:7957" expanded="true" />
-                <element signature="method#mouseReleased#0;class#6701:7957" expanded="true" />
-                <element signature="method#mousePressed#0;class#6701:7957" expanded="true" />
-                <element signature="method#mouseExited#0;class#6701:7957" expanded="true" />
-                <element signature="method#mouseEntered#0;class#6701:7957" expanded="true" />
-                <element signature="method#mouseClicked#0;class#6701:7957" expanded="true" />
-                <element signature="method#initResolution#0;class#MainWindow#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyChimpChat.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyChimpChat.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/MyChimpChat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
-              <folding>
-                <element signature="method#MyChimpChat#0;class#MyChimpChat#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="558">
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -108,18 +53,19 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -144,35 +90,47 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="PC2Android">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PC2Android" />
+              <option name="myItemId" value="ScreenCapture" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PC2Android" />
+              <option name="myItemId" value="ScreenCapture" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PC2Android" />
+              <option name="myItemId" value="ScreenCapture" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PC2Android" />
+              <option name="myItemId" value="ScreenCapture" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PC2Android" />
+              <option name="myItemId" value="ScreenCapture" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -190,11 +148,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PC2Android" />
+              <option name="myItemId" value="ScreenCapture" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PC2Android" />
+              <option name="myItemId" value="ScreenCapture" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -216,11 +174,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PC2Android" />
+              <option name="myItemId" value="ScreenCapture" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PC2Android" />
+              <option name="myItemId" value="ScreenCapture" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -231,40 +189,6 @@
               <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chimpchat" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PC2Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PC2Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="PC2Android">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -273,7 +197,7 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -740,7 +664,7 @@
     <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC" />
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
-    <configuration>C:\Users\sunzc\AppData\Roaming\Subversion</configuration>
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
@@ -755,41 +679,42 @@
       <workItem from="1463641447061" duration="650000" />
       <workItem from="1463642118403" duration="128000" />
       <workItem from="1463666481490" duration="3562000" />
+      <workItem from="1463998564422" duration="77000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5490000" />
+    <option name="totallyTimeSpent" value="5567000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40609136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4054348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25567323" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553419" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38325283" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38325283" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -814,18 +739,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/android/chimpchat/ChimpManager.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/OperateAndroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7080">
+          <caret line="366" column="46" selection-start-line="366" selection-start-column="46" selection-end-line="366" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/MyChimpChat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/android/chimpchat/ChimpManager.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#ChimpManager#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#ChimpManager#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#touch#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#type#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#wake#0;class#ChimpManager#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -836,8 +789,6 @@
           <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#OperateAndroid#0;class#OperateAndroid#0" expanded="true" />
-            <element signature="method#touch#0;class#OperateAndroid#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -873,19 +824,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1674">
           <caret line="151" column="21" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
-          <folding>
-            <element signature="method#MainWindow#0;class#MainWindow#0" expanded="true" />
-            <element signature="method#initWindow#0;class#MainWindow#0" expanded="true" />
-            <element signature="e#4368#4544#0" expanded="true" />
-            <element signature="e#4543#4544#0" expanded="true" />
-            <element signature="class#6701:7957" expanded="true" />
-            <element signature="method#mouseReleased#0;class#6701:7957" expanded="true" />
-            <element signature="method#mousePressed#0;class#6701:7957" expanded="true" />
-            <element signature="method#mouseExited#0;class#6701:7957" expanded="true" />
-            <element signature="method#mouseEntered#0;class#6701:7957" expanded="true" />
-            <element signature="method#mouseClicked#0;class#6701:7957" expanded="true" />
-            <element signature="method#initResolution#0;class#MainWindow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -925,14 +864,6 @@
           <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#ChimpManager#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#ChimpManager#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#touch#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#type#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#wake#0;class#ChimpManager#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -944,8 +875,6 @@
           <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#OperateAndroid#0;class#OperateAndroid#0" expanded="true" />
-            <element signature="method#touch#0;class#OperateAndroid#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -981,19 +910,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2620">
           <caret line="151" column="21" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
-          <folding>
-            <element signature="method#MainWindow#0;class#MainWindow#0" expanded="true" />
-            <element signature="method#initWindow#0;class#MainWindow#0" expanded="true" />
-            <element signature="e#4368#4544#0" expanded="true" />
-            <element signature="e#4543#4544#0" expanded="true" />
-            <element signature="class#6701:7957" expanded="true" />
-            <element signature="method#mouseReleased#0;class#6701:7957" expanded="true" />
-            <element signature="method#mousePressed#0;class#6701:7957" expanded="true" />
-            <element signature="method#mouseExited#0;class#6701:7957" expanded="true" />
-            <element signature="method#mouseEntered#0;class#6701:7957" expanded="true" />
-            <element signature="method#mouseClicked#0;class#6701:7957" expanded="true" />
-            <element signature="method#initResolution#0;class#MainWindow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,14 +942,6 @@
           <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#ChimpManager#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#ChimpManager#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#touch#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#type#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#wake#0;class#ChimpManager#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1044,8 +953,6 @@
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#OperateAndroid#0;class#OperateAndroid#0" expanded="true" />
-            <element signature="method#touch#0;class#OperateAndroid#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1081,19 +988,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#MainWindow#0;class#MainWindow#0" expanded="true" />
-            <element signature="method#initWindow#0;class#MainWindow#0" expanded="true" />
-            <element signature="e#4368#4544#0" expanded="true" />
-            <element signature="e#4543#4544#0" expanded="true" />
-            <element signature="class#6701:7957" expanded="true" />
-            <element signature="method#mouseReleased#0;class#6701:7957" expanded="true" />
-            <element signature="method#mousePressed#0;class#6701:7957" expanded="true" />
-            <element signature="method#mouseExited#0;class#6701:7957" expanded="true" />
-            <element signature="method#mouseEntered#0;class#6701:7957" expanded="true" />
-            <element signature="method#mouseClicked#0;class#6701:7957" expanded="true" />
-            <element signature="method#initResolution#0;class#MainWindow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,73 +1060,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/MyChimpChat.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/Writer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/android/chimpchat/ChimpManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+        <state relative-caret-position="269">
+          <caret line="196" column="16" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
           <folding>
-            <element signature="method#MyChimpChat#0;class#MyChimpChat#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/OperateAndroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423">
+        <state relative-caret-position="20">
           <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#OperateAndroid#0;class#OperateAndroid#0" expanded="true" />
-            <element signature="method#touch#0;class#OperateAndroid#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="529">
           <caret line="366" column="46" selection-start-line="366" selection-start-column="46" selection-end-line="366" selection-end-column="46" />
-          <folding>
-            <element signature="method#MainWindow#0;class#MainWindow#0" expanded="true" />
-            <element signature="method#initWindow#0;class#MainWindow#0" expanded="true" />
-            <element signature="e#4368#4544#0" expanded="true" />
-            <element signature="e#4543#4544#0" expanded="true" />
-            <element signature="class#6701:7957" expanded="true" />
-            <element signature="method#mouseReleased#0;class#6701:7957" expanded="true" />
-            <element signature="method#mousePressed#0;class#6701:7957" expanded="true" />
-            <element signature="method#mouseExited#0;class#6701:7957" expanded="true" />
-            <element signature="method#mouseEntered#0;class#6701:7957" expanded="true" />
-            <element signature="method#mouseClicked#0;class#6701:7957" expanded="true" />
-            <element signature="method#initResolution#0;class#MainWindow#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.7.0_79/src.zip!/java/io/Writer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lenovo/ScreenCapture/MyChimpChat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
-          <folding>
-            <element signature="method#write#3;class#Writer#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/android/chimpchat/ChimpManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="200" column="52" selection-start-line="200" selection-start-column="52" selection-end-line="200" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#ChimpManager#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#ChimpManager#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#touch#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#sendMonkeyEventAndGetResponse#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#parseResponseForSuccess#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#sendMonkeyEvent#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#type#0;class#ChimpManager#0" expanded="true" />
-            <element signature="method#wake#0;class#ChimpManager#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="558">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
